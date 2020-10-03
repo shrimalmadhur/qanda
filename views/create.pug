@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to Qanda
+    br
+    form(method="post" action="/")
+        div(class='page')
+            label(class='field field_v1')
+                input(type='textbox' name="question" placeholder='Enter the question', class="field__input")
+                span(class='field__label-wrap')
+                    span(class='field__label') Question
+            label(class='field field_v2')
+                input(type='textbox' name="answer" placeholder='Enter the answer', class="field__input")
+                span(class='field__label-wrap')
+                    span(class='field__label') Answer
+        button(type="submit") Submit

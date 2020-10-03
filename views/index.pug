@@ -2,4 +2,22 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{data}
+  p Welcome to Qanda
+  - var btnType = 'info'
+  - var btnSize = 'lg'
+  button(type='button' class=`btn btn-${btnType} btn-${btnSize}` onclick="move()") Create
+  table
+    thead
+      tr
+        td= "Question"
+        td= "Answer"
+    tbody
+      each qna in data
+        tr
+          td= qna.question
+          td= qna.answer
+
+  script.
+    function move() {
+      window.location.href = '/create'
+    }
