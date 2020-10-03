@@ -1,5 +1,6 @@
 # qanda
 Simple Interface for self Q&amp;A
+
 This is a simple interface storing Q&A which you want to answer for yourself. This is just a very simple way to store and retrieve from your local environment. I thought of buidling it after I subscribed to James Clear's [3-2-1](https://jamesclear.com/3-2-1) and thought how can I store everything locally.
 
 ## How does it work?
