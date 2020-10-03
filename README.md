@@ -7,7 +7,7 @@ When you start the server it creates a local db file and creates a table at star
 
 ## Steps
  - When you start the server, you will see a landing page shown below when you hit http://localhost:3000
-    ![Start page](./docs/homepage.png)
+    ![Start page](./docs/homepagelist.png)
     This page will list all your previous question and answers in tabular format
 
 - Clicking create will take you to the create page as shown below
@@ -15,7 +15,7 @@ When you start the server it creates a local db file and creates a table at star
     Once you add questions and answers to it, you can click on submit to store it in DB.
 
 - Once you click submit, it will take you back to homepage with latest data as shown below
-    ![Home Page](./docs/homepagelist.png)
+    ![Home Page](./docs/homepage.png)
 
 ## Why local?
 - To store everything inhouse
